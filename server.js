@@ -7,7 +7,7 @@ const routes = require('./src/routes');
 
 const app = express();
 
-mongoose.connect('mongodb://localhost:27017/node_simple-crud', {
+mongoose.connect('mongodb://localhost:27017/crud_node-simple-back', {
   useUnifiedTopology: true,
   useNewUrlParser: true,
   useFindAndModify: false
